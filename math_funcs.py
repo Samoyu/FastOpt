@@ -23,3 +23,25 @@ class Ackley:
 
 
         return self.bias - 20*math.exp(-0.2*s1) - math.exp(s2)
+    
+class Rastrigin:
+
+    b = 5.12
+
+    def __init__(self, dim):
+
+        check_dim(dim, 1)
+
+        self.x_best = np.zeros(dim)
+        self.f_best = 0
+        self.pi2 = math.pi*2
+        self.bias = 10*dim
+        self.bounds = easy_bounds(Rastrigin.b)
+
+
+    def __call__(self, vec):
+
+        s = sum(( x*x - math.cos(self.pi2*x)*10 for x in vec))
+
+        return self.bias + s
+
