@@ -2,7 +2,7 @@
 
 ## Global Optimization with Streamlit
 
-This project demonstrates various global optimization techniques using a Streamlit web application. The application allows users to visualize optimization paths for different functions and optimizers.
+This project demonstrates various global optimization techniques allows users to visualize optimization paths for different functions and optimizers.
 
 ---
 <h3 align="center">
@@ -11,7 +11,9 @@ This project demonstrates various global optimization techniques using a Streaml
 
 ---
 
-[demo video](demo/demo.mov)
+<p align="center">
+    <img src="demo/demo.gif" width=700>
+</p>
 
 ## Features
 
