@@ -1,8 +1,8 @@
 <h1 align="center">🧬 FastOpt</h1>
 
-## Global Optimization 
-
-This project demonstrates various global optimization techniques allows users to visualize optimization paths for different functions and optimizers.
+<p align="center">
+  This project demonstrates various global optimization techniques allows users to visualize optimization paths for different functions and optimizers.
+</p>
 
 ---
 <h3 align="center">
